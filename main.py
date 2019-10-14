@@ -1,4 +1,6 @@
 from console import print_all_friends
+from console import jestes_failem
+
 
 my_friends = ["Daniel", "costa", "myszka"]
 
@@ -15,4 +17,4 @@ while True:
             my_friends.remove(friend)
             print_all_friends(my_friends)
         else:
-            print("Nie mam takiego ziomka")
+            jestes_failem()
