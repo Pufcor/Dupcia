@@ -6,4 +6,4 @@ def print_all_friends(to_print):
 
 
 def jestes_failem():
-    print("Nie mam takiego ziomka")
+    print("Nie mam takiego ziomka, cieciu")
