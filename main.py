@@ -1,4 +1,4 @@
 name = input("Podaj imię: ")
 
-print("Hello " + name + ", nice to meet you!!")
 
+print("Twoje imię ma: " + str(len(name)) + " znaków")
