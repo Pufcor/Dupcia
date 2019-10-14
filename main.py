@@ -1,4 +1,14 @@
-name = input("Podaj imię: ")
+my_friends = ["Daniel", "costa", "myszka"]
 
+for XD in my_friends:
+    print("My friend to: " + XD)
+    print("--------------------")
 
-print("Twoje imię ma: " + str(len(name)) + " znaków")
+imie = input("podaj imię psyjacielu: ")
+
+my_friends.append(imie)
+
+for XD in my_friends:
+    print("My friend to: " + XD)
+    print("--------------------")
+
