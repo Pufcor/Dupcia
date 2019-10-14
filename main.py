@@ -10,8 +10,8 @@ def print_all_friends():
 
 print_all_friends()
 
-imie = input("podaj imię psyjacielu: ")
+name = input("podaj imię psyjacielu: ")
 
-my_friends.append(imie)
+my_friends.append(name)
 
 print_all_friends()
