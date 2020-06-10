@@ -9,6 +9,8 @@ if name in a:
     l = int(wiek)
     if l > 38:
         print("spadaj ")
+    if l < 19:
+        print("spadaj ")
     else:
         print("gramy dalej ")
 
